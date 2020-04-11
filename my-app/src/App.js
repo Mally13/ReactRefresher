@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
+import Component1 from './Functional/Component1';
+
 class App extends Component {
-  name='mally'
+
   render(){
-   return (
+     return (
     <div className="App">
     React
-    {this.name}
+    <Component1 name="Mary" age="24"/>
     </div>
   );
 }
